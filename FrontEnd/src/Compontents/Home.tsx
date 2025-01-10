@@ -63,7 +63,7 @@ const Home: React.FC = () => {
 
             {/* Products Section */}
             <div className="container my-5">
-                <h2 className="text-center mb-4">Our Product</h2>
+                <h2 className="text-center mb-4">Our Products</h2>
                 <div className="row">
                     {products.map((product) => (
                         <div className="col-md-4 mb-4" key={product.StockNo}>
