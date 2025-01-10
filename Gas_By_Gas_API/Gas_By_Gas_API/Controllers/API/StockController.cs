@@ -66,5 +66,32 @@ namespace Gas_By_Gas_API.Controllers.API
 
             return Ok(products);
         }
+
+        [HttpGet]
+        [Route("api/Stocks/GetStockByQty")]
+        public IHttpActionResult GetStocksByQty()
+        {
+            List<Stock> products = new List<Stock>();
+
+            using (var conn = new SqlConnection(DbConfig.ConnectionString))
+            {
+                string query = "SELECT * FROM Stocks where StockInQty > 0";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                conn.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    products.Add(new Stock
+                    {
+                        StockNo = (string)reader["StockNo"],
+                        Name = reader["Name"].ToString(),
+                        Price = (decimal)reader["Price"]
+                    });
+                }
+            }
+
+            return Ok(products);
+        }
     }
 }
