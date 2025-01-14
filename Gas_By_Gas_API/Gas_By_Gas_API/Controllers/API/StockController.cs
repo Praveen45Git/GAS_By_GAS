@@ -1,10 +1,6 @@
 ﻿using Gas_By_Gas_API.Models;
-using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 using static Gas_By_Gas_API.WebApiApplication;
 
@@ -93,5 +89,6 @@ namespace Gas_By_Gas_API.Controllers.API
 
             return Ok(products);
         }
+
     }
 }
