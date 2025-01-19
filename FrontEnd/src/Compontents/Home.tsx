@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useCart } from '../CartContext';
 import { getProducts } from '../Service/StockService'
+import Navbar from './Navbar'
 
 const Home: React.FC = () => {
     const { cart, addToCart, removeFromCart } = useCart();
@@ -9,7 +10,7 @@ const Home: React.FC = () => {
 
 
     // Get the quantity of a product from the cart
-    const getProductQuantity = (productId: string) => {
+    const getProductQuantity = (productId: number) => {
         const product = cart.find((item) => item.id === productId); // Match with StockNo
         return product ? product.quantity : 0;
     };
@@ -38,6 +39,7 @@ const Home: React.FC = () => {
 
     return (
         <div>
+            <Navbar/>
             {/* Carousel Section */}
             <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
