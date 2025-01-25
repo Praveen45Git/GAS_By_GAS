@@ -84,7 +84,6 @@ P:\ASE\Project\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API
 P:\ASE\Project\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.csproj.CopyComplete
 P:\ASE\Project\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.dll
 P:\ASE\Project\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.pdb
-C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.csproj.CoreCompileInputs.cache
 C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Gas_By_Gas_API.dll.config
 C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Gas_By_Gas_API.dll
 C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Gas_By_Gas_API.pdb
@@ -184,9 +183,10 @@ C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API
 C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Web.Optimization.xml
 C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Antlr3.Runtime.pdb
 C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.Migrations.InitialMigration.resources
+C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.csproj.GenerateResource.cache
+C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.csproj.CoreCompileInputs.cache
 C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.csproj.CopyComplete
 C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.dll
 C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.pdb
-C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.Migrations.InitialMigration.resources
-C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.csproj.GenerateResource.cache
 C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.csprojAssemblyReference.cache

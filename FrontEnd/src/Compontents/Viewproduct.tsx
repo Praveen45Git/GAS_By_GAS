@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Button, Table, Row, Col, Form } from 'react-bootstrap';
+import { Button, Table, Row, Col, Card,  Form } from 'react-bootstrap';
 import { FaEdit, FaTrash } from 'react-icons/fa'; // Importing FontAwesome icons
 import axios from 'axios';
 import { Link } from 'react-router-dom';
@@ -76,10 +76,12 @@ const Viewproduct: React.FC = () => {
   );
 
   return (
-    <div style={{ backgroundColor: '#FAF6E3', minHeight: '100vh' }}>
+    <div style={{ backgroundColor: "#FAF6E3", minHeight: "100vh", padding: "20px" }}>
       <AdminNavbar />
 
       <div className="container py-5">
+
+      <Card className="shadow-sm p-4">
         <h2 className="mb-4" style={{ color: '#2A3663' }}>Product Management</h2>
 
         {/* Search Box */}
@@ -148,8 +150,12 @@ const Viewproduct: React.FC = () => {
             ))}
           </tbody>
         </Table>
+      </Card>
+
       </div>
+      
     </div>
+   
   );
 };
 

@@ -13,5 +13,6 @@ namespace Gas_By_Gas_API.Models
         public decimal RecQty { get; set; }
         public decimal IssQty { get; set; }
         public decimal StockInQty { get; set; }
+        public decimal NewPrice { get; set; }
     }
 }
