@@ -28,11 +28,7 @@ namespace Gas_By_Gas_API.Controllers.API
                     {
                         StockNo = (string)reader["StockNo"],
                         Name = reader["Name"].ToString(),
-                        Price = (decimal)reader["Price"],
-                        RecQty = (decimal)reader["RecQty"],
-                        IssQty = (decimal)reader["IssQty"],
-                        StockInQty = (decimal)reader["StockInQty"],
-                        NewPrice = (decimal)reader["NewPrice"],
+                        Price = (decimal)reader["Price"]
                     });
                 }
             }
@@ -60,11 +56,7 @@ namespace Gas_By_Gas_API.Controllers.API
                     {
                         StockNo = (string)reader["StockNo"],
                         Name = reader["Name"].ToString(),
-                        Price = (decimal)reader["Price"],
-                        RecQty = (decimal)reader["RecQty"],
-                        IssQty = (decimal)reader["IssQty"],
-                        StockInQty = (decimal)reader["StockInQty"],
-                        NewPrice = (decimal)reader["NewPrice"],
+                        Price = (decimal)reader["Price"]
                     });
                 }
             }
@@ -91,11 +83,7 @@ namespace Gas_By_Gas_API.Controllers.API
                     {
                         StockNo = (string)reader["StockNo"],
                         Name = reader["Name"].ToString(),
-                        Price = (decimal)reader["Price"],
-                        RecQty = (decimal)reader["RecQty"],
-                        IssQty = (decimal)reader["IssQty"],
-                        StockInQty = (decimal)reader["StockInQty"],
-                        NewPrice = (decimal)reader["NewPrice"],
+                        Price = (decimal)reader["Price"]
                     });
                 }
             }
@@ -161,8 +149,8 @@ namespace Gas_By_Gas_API.Controllers.API
                 {
                     conn.Open();
 
-                    string query = @"INSERT INTO Stocks (StockNo, Name, Price, RecQty, IssQty, StockInQty, NewPrice)
-                                 VALUES (@StockNo, @Name, @Price, @RecQty, @IssQty, @StockInQty, @NewPrice)";
+                    string query = @"INSERT INTO Stocks (StockNo, Name, Price, RecQty, IssQty, StockInQty)
+                                 VALUES (@StockNo, @Name, @Price, @RecQty, @IssQty, @StockInQty)";
 
                     using (SqlCommand command = new SqlCommand(query, conn))
                     {
@@ -172,7 +160,6 @@ namespace Gas_By_Gas_API.Controllers.API
                         command.Parameters.AddWithValue("@RecQty", 0);
                         command.Parameters.AddWithValue("@IssQty", 0);
                         command.Parameters.AddWithValue("@StockInQty", 0);
-                        command.Parameters.AddWithValue("@NewPrice", stock.NewPrice);
 
                         int rowsAffected = command.ExecuteNonQuery();
 
@@ -210,8 +197,7 @@ namespace Gas_By_Gas_API.Controllers.API
 
                     string query = @"UPDATE Stocks
                              SET Name = @Name,
-                                 Price = @Price,
-                                 NewPrice = @NewPrice
+                                 Price = @Price
                              WHERE StockNo = @StockNo";
 
                     using (SqlCommand command = new SqlCommand(query, conn))
@@ -219,7 +205,6 @@ namespace Gas_By_Gas_API.Controllers.API
                         command.Parameters.AddWithValue("@StockNo", stock.StockNo);
                         command.Parameters.AddWithValue("@Name", stock.Name);
                         command.Parameters.AddWithValue("@Price", stock.Price);
-                        command.Parameters.AddWithValue("@NewPrice", stock.NewPrice);
 
                         int rowsAffected = command.ExecuteNonQuery();
 

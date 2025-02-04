@@ -84,6 +84,7 @@ P:\ASE\Project\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API
 P:\ASE\Project\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.csproj.CopyComplete
 P:\ASE\Project\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.dll
 P:\ASE\Project\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.pdb
+C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.csproj.CoreCompileInputs.cache
 C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Gas_By_Gas_API.dll.config
 C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Gas_By_Gas_API.dll
 C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Gas_By_Gas_API.pdb
@@ -183,10 +184,115 @@ C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API
 C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Web.Optimization.xml
 C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Antlr3.Runtime.pdb
 C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.Migrations.InitialMigration.resources
-C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.csproj.GenerateResource.cache
-C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.csproj.CoreCompileInputs.cache
 C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.csproj.CopyComplete
 C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.dll
 C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.pdb
+C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.Migrations.InitialMigration.resources
+C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.csproj.GenerateResource.cache
 C:\Users\Praveen Ravindran\source\repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.csprojAssemblyReference.cache
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Gas_By_Gas_API.dll.config
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Gas_By_Gas_API.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Gas_By_Gas_API.pdb
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\csc.exe
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\csc.exe.config
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\csc.rsp
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\csi.exe
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\csi.exe.config
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\csi.rsp
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.AppContext.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.Console.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.IO.Compression.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.Security.Claims.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.ValueTuple.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\vbc.exe
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\vbc.exe.config
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\vbc.rsp
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Antlr3.Runtime.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\EntityFramework.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\EntityFramework.SqlServer.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Newtonsoft.Json.Bson.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Newtonsoft.Json.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Buffers.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Memory.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Net.Http.Formatting.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Web.Cors.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Web.Helpers.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Web.Http.Cors.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Web.Http.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Web.Http.WebHost.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Web.Mvc.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Web.Optimization.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Web.Razor.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Web.WebPages.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\WebGrease.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\EntityFramework.xml
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\EntityFramework.SqlServer.xml
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Newtonsoft.Json.xml
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Newtonsoft.Json.Bson.xml
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Buffers.xml
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Memory.xml
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Net.Http.Formatting.xml
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Web.Helpers.xml
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Web.Http.xml
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Web.Http.Cors.xml
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Web.Http.WebHost.xml
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Web.Mvc.xml
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Web.Razor.xml
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Web.WebPages.xml
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\System.Web.Optimization.xml
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Antlr3.Runtime.pdb
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.csproj.AssemblyReference.cache
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.Migrations.InitialMigration.resources
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.csproj.GenerateResource.cache
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.csproj.CoreCompileInputs.cache
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_G.F8402545.Up2Date
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.dll
+C:\Users\Nafzz\Source\Repos\GAS_By_GAS\Gas_By_Gas_API\Gas_By_Gas_API\obj\Debug\Gas_By_Gas_API.pdb

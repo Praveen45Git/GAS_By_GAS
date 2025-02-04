@@ -198,6 +198,7 @@
     </Compile>
     <Compile Include="Migrations\Applicationuser.cs" />
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Payment.cs" />
     <Compile Include="Models\MyDbContext.cs" />
     <Compile Include="Models\MyEntity.cs" />
     <Compile Include="Models\Stock.cs" />
