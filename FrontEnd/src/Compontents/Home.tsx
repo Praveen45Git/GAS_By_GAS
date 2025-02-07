@@ -3,6 +3,7 @@ import { useCart } from "../CartContext";
 import { getProducts } from "../Service/StockService";
 import Navbar from "./Navbar";
 import NoImage from "../image/NoImage.jpeg"; // Import NoImage.jpeg
+import { useLocation } from "react-router-dom";
 
 const Home: React.FC = () => {
   const { cart, addToCart, removeFromCart } = useCart();
@@ -40,11 +41,13 @@ const Home: React.FC = () => {
       </div>
     );
   }
+  const location = useLocation();
+  const username = location.state?.username || "Guest"; // Default to 'Guest' if no username is passed
 
   return (
     <div style={{ backgroundColor: "#FAF6E3", minHeight: "100vh" }}>
       {/* Navbar */}
-      <Navbar />
+      <Navbar username={username} />
 
       {/* Products Section */}
       <div className="container py-5">
