@@ -11,6 +11,8 @@ interface StockDetail {
   Amount: number;
 }
 
+
+
 const PaymentInterface: React.FC = () => {
   const [stockDetails, setStockDetails] = useState<StockDetail[]>([]);
   const [orderNo, setOrderNo] = useState<string>(() => `10`);
