@@ -128,15 +128,6 @@ namespace Gas_By_Gas_API.Controllers.API
                         {
                             paymentDetails.Add(new Payment
                             {
-                            //    orderNo = reader["OrderNo"].ToString(),
-                            //    customerId= reader["CustomerName"].ToString(),
-                            //    outlet = reader["Outlet"].ToString(),
-                            //    scheduleDate = Convert.ToDateTime(reader["ScheduleDate"]),
-                            //    stockNo = reader["StockNo"].ToString(),
-                            //    name = reader["Name"].ToString(),
-                            //    quantity = Convert.ToInt32(reader["Quantity"]),
-                            //    amount = Convert.ToDecimal(reader["Amount"]),
-                            //    emptyGasImage = reader["EmptyGasImage"].ToString()
                             });
                         }
                     }
