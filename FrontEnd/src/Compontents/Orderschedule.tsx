@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Button, Table, Row, Col, Card,  Form } from 'react-bootstrap';
+import { Button, Table, Row, Col, Card,  Form, Navbar } from 'react-bootstrap';
 import { FaEdit, FaTrash } from 'react-icons/fa'; // Importing FontAwesome icons
 import axios from 'axios';
 import { Link } from 'react-router-dom';
@@ -77,7 +77,7 @@ const Orderschedule: React.FC = () => {
 
   return (
     <div style={{ backgroundColor: "#FAF6E3", minHeight: "100vh", padding: "20px" }}>
-      <AdminNavbar />
+      <Navbar />
 
       <div className="container py-5">
 

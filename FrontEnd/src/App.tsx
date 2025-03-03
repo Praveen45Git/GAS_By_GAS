@@ -8,6 +8,7 @@ import ViewProduct from "./Compontents/Viewproduct";
 import { CartProvider } from "./CartContext";
 import ConnectionStatus from "./Compontents/ConnectionStatus";
 import ViewOutlets from "./Compontents/ViewOutlets";
+import Orderschedule from "./Compontents/Orderschedule";
 
 function App() {
   const [username, setUsername] = useState<string>("");
@@ -21,6 +22,7 @@ function App() {
             <Route path="/admin/products" element={<ViewProduct />} />
             <Route path="/admin/products/add" element={<ProdutManagement />} />
             <Route path="/admin/products/outlets" element={<ViewOutlets />} />
+            <Route path="/Outlet/Orderschedule" element={<Orderschedule />} />
             <Route path="/" element={<Login setUsername={setUsername} />} />
             <Route path="/home" element={<Home />} />
           </Routes>
