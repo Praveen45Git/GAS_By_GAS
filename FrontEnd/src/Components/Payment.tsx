@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Button, Table, Row, Col, Form } from 'react-bootstrap';
 import axios from 'axios';
 import Swal from 'sweetalert2';
-import AdminNavbar from './AdminNavbar';
+import AdminNavbar from '../Compontents/AdminNavbar';
 
 interface StockDetail {
   StockNo: string;
