@@ -48,6 +48,7 @@ namespace Gas_By_Gas_API.Controllers.API
                         command.Parameters.AddWithValue("@emptyQty", payment.emptyQty);
                         command.Parameters.AddWithValue("@Amount", payment.amount);
 
+
                         int rowsAffected = command.ExecuteNonQuery();
 
                         if (rowsAffected > 0)
