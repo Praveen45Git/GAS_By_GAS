@@ -204,6 +204,7 @@
     <Compile Include="Models\MyEntity.cs" />
     <Compile Include="Models\OrderDetail.cs" />
     <Compile Include="Models\OrderHeader.cs" />
+    <Compile Include="Models\Payment.cs" />
     <Compile Include="Models\Stock.cs" />
     <Compile Include="Models\Users.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
