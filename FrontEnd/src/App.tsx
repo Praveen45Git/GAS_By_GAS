@@ -5,6 +5,8 @@ import AdminPage from "./Compontents/AdminPage";
 import ProdutManagement from "./Compontents/ProdutManagement";
 import ViewProduct from "./Compontents/Viewproduct";
 import { CartProvider } from "./CartContext";
+import OutletDashboard from "./Compontents/OutletDahboard";
+import React from "react";
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
         <Router>
           <Routes>
             <Route path="/admin/dashboard" element={<AdminPage />} />
+            <Route path="/outletdashboard" element={<OutletDashboard />} />
             <Route path="/admin/products" element={<ViewProduct />} />
             <Route path="/admin/products/add" element={<ProdutManagement />} />
             <Route path="/" element={<Home />} />
