@@ -4,70 +4,62 @@ interface CartItem {
   StockNo: string;
   Name: string;
   Price: number;
-  IssQty: number; // Issued Quantity
+  IssQty: number;
 }
 
 interface CartContextType {
   cart: CartItem[];
-  addToCart: (product: CartItem) => void;
-  removeFromCart: (StockNo: string) => void;
+  addToCart: (item: CartItem) => void;
+  removeFromCart: (stockNo: string) => void;
+  getTotalPrice: () => number;
+  clearCart: () => void;
 }
 
-// Define the context
-const CartContext = createContext<CartContextType | undefined>(undefined);
-
-// Define the provider props
 interface CartProviderProps {
-  children: ReactNode; // Ensures the 'children' prop is correctly typed
+  children: ReactNode; // Add children type
 }
+
+const CartContext = createContext<CartContextType | undefined>(undefined);
 
 export const CartProvider: React.FC<CartProviderProps> = ({ children }) => {
   const [cart, setCart] = useState<CartItem[]>([]);
 
-  const addToCart = (product: CartItem) => {
-    setCart((prevCart) => {
-      const existingProduct = prevCart.find(
-        (item) => item.StockNo === product.StockNo
-      );
+  const clearCart = () => {
+    setCart([]); // Clear the cart state
+  };
 
-      if (existingProduct) {
-        // Update quantity if the product is already in the cart
-        return prevCart.map((item) =>
-          item.StockNo === product.StockNo
-            ? { ...item, IssQty: item.IssQty + 1 }
-            : item
+  const addToCart = (item: CartItem) => {
+    setCart((prevCart) => {
+      const existingItem = prevCart.find((i) => i.StockNo === item.StockNo);
+      if (existingItem) {
+        return prevCart.map((i) =>
+          i.StockNo === item.StockNo
+            ? { ...i, IssQty: i.IssQty + item.IssQty }
+            : i
         );
-      } else {
-        // Add new product to the cart
-        return [...prevCart, { ...product, IssQty: 1 }];
       }
+      return [...prevCart, item];
     });
   };
 
-  const removeFromCart = (StockNo: string) => {
-    setCart((prevCart) => {
-      const existingProduct = prevCart.find((item) => item.StockNo === StockNo);
+  const removeFromCart = (stockNo: string) => {
+    setCart((prevCart) => prevCart.filter((item) => item.StockNo !== stockNo));
+  };
 
-      if (existingProduct && existingProduct.IssQty > 1) {
-        // Decrease quantity if greater than 1
-        return prevCart.map((item) =>
-          item.StockNo === StockNo ? { ...item, IssQty: item.IssQty - 1 } : item
-        );
-      } else {
-        // Remove product if quantity is 1
-        return prevCart.filter((item) => item.StockNo !== StockNo);
-      }
-    });
+  const getTotalPrice = () => {
+    return cart.reduce((total, item) => total + item.Price * item.IssQty, 0);
   };
 
   return (
-    <CartContext.Provider value={{ cart, addToCart, removeFromCart }}>
+    <CartContext.Provider
+      value={{ cart, addToCart, removeFromCart, getTotalPrice, clearCart }} // Include clearCart
+    >
       {children}
     </CartContext.Provider>
   );
 };
 
-export const useCart = () => {
+export const useCart = (): CartContextType => {
   const context = useContext(CartContext);
   if (!context) {
     throw new Error("useCart must be used within a CartProvider");
