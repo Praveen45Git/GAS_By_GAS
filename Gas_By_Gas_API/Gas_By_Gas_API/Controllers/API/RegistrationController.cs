@@ -13,40 +13,72 @@ namespace Gas_By_Gas_API.Controllers.API
     public class RegistrationController : ApiController
     {
 
+  
+        // GET: api/Users
         [HttpGet]
-        [Route("api/Registration/ValidateUser/{UserName}/{Password}")]
-        public IHttpActionResult ValidateUser(string UserName, string Password)
+        [Route("api/Users")]
+        public IHttpActionResult GetAllUsers()
         {
+            List<User> users = new List<User>();
+
             using (var conn = new SqlConnection(DbConfig.ConnectionString))
             {
-                string query = @"
-                SELECT Type, Username 
-                FROM Users 
-                WHERE (Username = @Username OR EmailAddress = @UserName) 
-                AND Password = @Password";
+                string query = "SELECT * FROM Users";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                conn.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
 
-                using (SqlCommand cmd = new SqlCommand(query, conn))
+                while (reader.Read())
                 {
-                    cmd.Parameters.AddWithValue("@Username", UserName);
-                    cmd.Parameters.AddWithValue("@EmailAddress", UserName);
-                    cmd.Parameters.AddWithValue("@Password", Password); // Consider using hashed passwords
-
-                    conn.Open();
-                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    users.Add(new User
                     {
-                        if (reader.Read())
-                        {
-                            string userType = (string)reader["Type"];
-                            string user = (string)reader["Username"];
-                            return Ok(new { Type = userType, username = user});
-                        }
-                        else
-                        {
-                            return Content(HttpStatusCode.NotFound, "Invalid username or password.");
-                        }
-                    }
+                        UserName = reader["UserName"].ToString(),
+                        Password = reader["Password"].ToString(),
+                        EmailAddress = reader["EmailAddress"].ToString(),
+                        LastLogin = reader["LastLogin"] == DBNull.Value ? (DateTime?)null : (DateTime)reader["LastLogin"],
+                        Type = reader["Type"].ToString(),
+                    });
                 }
             }
+
+            return Ok(users);
+        }
+
+        // POST: api/Users
+        [HttpPost]
+        [Route("api/Users")]
+        public IHttpActionResult InsertUser([FromBody] User newUser)
+        {
+            if (newUser == null)
+            {
+                return BadRequest("User data is null.");
+            }
+
+            using (var conn = new SqlConnection(DbConfig.ConnectionString))
+            {
+                string query = "INSERT INTO Users (UserName, Password, EmailAddress, LastLogin, Type) VALUES (@UserName, @Password, @EmailAddress, @LastLogin, @Type)";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@UserName", newUser.UserName);
+                cmd.Parameters.AddWithValue("@Password", newUser.Password);
+                cmd.Parameters.AddWithValue("@EmailAddress", newUser.EmailAddress);
+                cmd.Parameters.AddWithValue("@LastLogin", (object)newUser.LastLogin ?? DBNull.Value);
+                cmd.Parameters.AddWithValue("@Type", newUser.Type);
+
+                conn.Open();
+                cmd.ExecuteNonQuery();
+            }
+
+            return CreatedAtRoute("DefaultApi", new { id = newUser.UserName }, newUser);
         }
     }
 }
+
+    // User model to match your Users table
+    public class User
+    {
+        public string UserName { get; set; }
+        public string Password { get; set; }
+        public string EmailAddress { get; set; }
+        public DateTime? LastLogin { get; set; }
+        public string Type { get; set; }
+    }
